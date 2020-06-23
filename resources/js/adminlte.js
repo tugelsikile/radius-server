@@ -1,5 +1,11 @@
+window._ = require('lodash');
+try {
+    window.Popper = require('popper.js').default;
+    window.$ = window.jQuery = require('jquery');
+} catch (e) {}
+window.axios = require('axios');
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-require('../../node_modules/admin-lte/bower_components/jquery/dist/jquery.min')
 require('../../node_modules/admin-lte/bower_components/bootstrap/dist/js/bootstrap.min')
 require('../../node_modules/admin-lte/bower_components/moment/moment')
 require('../../node_modules/admin-lte/bower_components/select2/dist/js/select2.min')
