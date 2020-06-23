@@ -9,6 +9,6 @@ require('../../node_modules/admin-lte/bower_components/bootstrap-daterangepicker
 require('../../node_modules/admin-lte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min')
 require('../../node_modules/admin-lte/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.id.min')
 require('../../node_modules/admin-lte/bower_components/inputmask/dist/jquery.inputmask.bundle')
-require('../../node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min')
+//require('../../node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min')
 require('../../node_modules/admin-lte/plugins/iCheck/icheck.min')
 require('../../node_modules/admin-lte/dist/js/adminlte.min')
