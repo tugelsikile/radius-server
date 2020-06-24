@@ -1,6 +1,7 @@
 @extends('layouts.login')
 
 @section('content')
+    {{--{{ dd(timezone_identifiers_list(DateTimeZone::ALL)) }}--}}
     <div class="login-box">
         <div class="login-logo">
             <a href="{{ url('/') }}">{{ config('app.name', 'Laravel') }}</a>

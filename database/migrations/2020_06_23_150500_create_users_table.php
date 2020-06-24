@@ -28,6 +28,9 @@ class CreateUsersTable extends Migration
             $table->enum('topup',['enabled','disabled'])->default('enabled');
             $table->enum('status_balance',['active','pending'])->default('pending');
             $table->integer('cur_balance',false,true)->default(0);
+            $table->enum('status_active',['active','inactive'])->default('active');
+            $table->integer('max_router',false,true)->default(0);
+            $table->integer('max_customer',false,true)->default(0);
             $table->rememberToken();
             $table->timestamps();
             $table->foreign('level_id')->on('user_levels')->references('id')->onDelete('cascade')->onUpdate('no action');
