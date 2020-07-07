@@ -37,4 +37,8 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+    protected function credentials($request)
+    {
+        return ['email' => $request->{$this->username()}, 'password' => $request->password, 'status_active' => 'active'];
+    }
 }

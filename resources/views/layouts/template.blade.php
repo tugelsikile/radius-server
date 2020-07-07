@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/adminlte.css') }}">
     <script src="{{ asset('js/adminlte.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -16,7 +17,11 @@
 
         @include('layouts.sidebar')
 
+        <div class="content-wrapper">
         @yield('content')
+        </div>
+
+        @include('layouts.footer')
     </div>
 
 </body>
