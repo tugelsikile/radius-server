@@ -2,6 +2,7 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+.idea/*
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -25,6 +26,7 @@ Homestead.json
 
 # public
 public/fonts
-public/images
+public/images/*
 public/js/adminlte.js
 public/css/adminlte.css
+!public/images/avatar.jpg

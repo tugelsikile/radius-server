@@ -10,10 +10,14 @@
     <script src="{{ asset('js/adminlte.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
 </head>
-<body>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        @include('layouts.header')
 
+        @include('layouts.sidebar')
 
-    @yield('content')
+        @yield('content')
+    </div>
 
 </body>
 </html>
