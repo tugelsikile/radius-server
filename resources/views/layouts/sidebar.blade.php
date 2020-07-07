@@ -18,6 +18,11 @@
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
+            <li class="@isset($curmenu) @if($curmenu==='router') active @endif @endisset">
+                <a href="{{ url('routers') }}">
+                    <i class="fa fa-server"></i> <span>Routers</span>
+                </a>
+            </li>
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
