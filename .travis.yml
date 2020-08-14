@@ -2,3 +2,5 @@ language: php
 rvm:
  - 2.2
  - jruby
+before_script:
+ - composer install
