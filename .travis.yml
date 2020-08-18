@@ -1,6 +1,5 @@
 language: php
-rvm:
- - 2.2
- - jruby
+php:
+  - '7.3'
 before_script:
  - composer install
